@@ -1,6 +1,5 @@
 # Git and GitHub First-Time Setup Guide
 
-## 1. Initial Git Configuration
 
 After installing Git, configure your identity (required for commits):
 
@@ -37,7 +36,7 @@ SSH keys provide secure authentication without entering passwords:
 
 ```bash
 # Generate a new SSH key (replace with your GitHub email)
-ssh-keygen -t ed25519 -C "your.email@example.com"
+
 
 # If ed25519 is not supported, use RSA:
 # ssh-keygen -t rsa -b 4096 -C "your.email@example.com"
